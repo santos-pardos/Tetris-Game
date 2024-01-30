@@ -40,5 +40,5 @@ jobs:
     - name: Deploy to EKS
       run: |
           kubectl apply -f manifests/tetris-deploy.yaml
-          kubectl apply -f manifests/tretris-svc.yaml
+          kubectl apply -f manifests/tetris-svc.yaml
 
